@@ -1,0 +1,13 @@
+.footer .ellipse {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: $text-white-color;
+}
+
+.sotial-cards .list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer .ellipse:hover,
+.footer .ellipse:focus {
+  background-color: $basic-blue-color;
+}

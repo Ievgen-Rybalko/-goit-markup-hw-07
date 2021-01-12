@@ -1,0 +1,21 @@
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  font-family: 'Raleway', 'Oleo Script', cursive, sans-serif;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192; /* 31px */
+  letter-spacing: 0.03em;
+  color: $basic-blue-color;
+}
+
+.logo-accent {
+  color: $text-black-color;
+}
+
+.logo-accent.logo-inverse {
+  color: $text-white-color;
+}
