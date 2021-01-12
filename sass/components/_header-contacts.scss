@@ -8,7 +8,7 @@
 }
 
 .top-contacts a {
-  color: var(--text-common-light-color);
+  color: $text-common-light-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -30,5 +30,5 @@
 .top-contacts a:hover,
 .top-contacts a:active,
 .top-contacts a:focus {
-  color: var(--basic-blue-color);
+  color: $basic-blue-color;
 }
