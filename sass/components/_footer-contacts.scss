@@ -4,10 +4,10 @@
 
 .main-footer-contact-list > .item {
   margin-bottom: 10px;
-}
 
-.main-footer-contact-list > .item:last-child {
-  margin-bottom: 0px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 .main-footer-contact-list a {

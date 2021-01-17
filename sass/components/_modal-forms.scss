@@ -32,6 +32,7 @@
   color: $text-common-light-color;
 }
 .form-label .form-input {
+  outline: none;
   position: absolute;
   bottom: -4px;
   left: 0;

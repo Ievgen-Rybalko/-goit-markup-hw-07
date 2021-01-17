@@ -256,6 +256,7 @@ button.order-now-button {
 
 .backdrop.is-hidden {
   opacity: 0;
+  /* ghg */
   pointer-events: none;
 }
 
@@ -330,6 +331,7 @@ button.order-now-button {
 }
 
 .form-label .form-input {
+  outline: none;
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -423,11 +425,17 @@ button.order-now-button {
   letter-spacing: 0.03em;
 }
 
+.checkbox-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
 .checkbox-input {
   /* appearance: none;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  position: absolute; */
+  -moz-appearance: none;*/
   position: absolute;
   width: 1px;
   height: 1px;
@@ -438,16 +446,19 @@ button.order-now-button {
   overflow: hidden;
 }
 
-.checkbox .checkbox-icon {
+.checkbox-label .checkbox-text::before {
+  /* former "checkbox-icon" class*/
   display: inline-block;
+  margin-right: 7px;
   width: 16px;
   height: 15px;
+  content: '';
   fill: #ffffff;
   border: 2px solid #2f303a;
   border-radius: 2px;
 }
 
-.checkbox-input:checked + .checkbox-icon {
+.checkbox-input:checked + .checkbox-text::before {
   stroke: #ffffff;
   fill: #2196f3;
   background-color: #2196f3;
