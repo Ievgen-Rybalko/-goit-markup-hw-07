@@ -1,15 +1,14 @@
-.portfolio-cards .item {
-  display: block;
-}
-
 .portfolio-cards {
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
-  /* padding-top: 34px; */
+
+  & .item {
+    display: block;
+  }
 }
 
-/* Всплівающее окно карточки*/
+/* Всплывающее окно карточки*/
 .portfolio-cards .img-item > p {
   display: inline-block;
   position: absolute;
@@ -19,8 +18,7 @@
   height: 294px;
   padding: 63px 24px;
 
-  font-family: Roboto;
-
+  font-family: $basic-font;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;

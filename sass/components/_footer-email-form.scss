@@ -1,3 +1,8 @@
+.footer-form {
+  font-family: $basic-font;
+  font-weight: 400;
+}
+
 .footer-form .send-mail {
   display: flex;
 }
@@ -15,7 +20,6 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -24,27 +28,14 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* .send-mail .footer-input::placeholder {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-} */
-
 .send-mail input.footer-input:not(:placeholder-shown) {
   color: $text-white-color;
-  font-family: Roboto;
-  font-weight: 400;
 }
 
 .footer-form > b {
   display: block;
   margin-bottom: 20px;
 
-  font-family: Roboto;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -66,8 +57,6 @@
   border-radius: 4px;
   border-width: 0;
 
-  font-family: Roboto;
-  font-style: 400;
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height 30px */
@@ -76,4 +65,10 @@
   color: $text-white-color;
   fill: $text-white-color;
   background-color: $basic-blue-color;
+}
+
+.footer-button b {
+  display: block;
+  margin-right: 10px;
+  text-align: center;
 }

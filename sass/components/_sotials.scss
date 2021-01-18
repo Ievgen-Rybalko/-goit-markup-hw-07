@@ -13,6 +13,12 @@
 }
 
 .sotial-cards .ellipse {
+  &:hover,
+  &:focus {
+    background-color: $basic-blue-color;
+    fill: $text-white-color;
+  }
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,10 +34,4 @@
 
 .sotial-cards .list-item:not(:last-child) {
   margin-right: 10px;
-}
-
-.list .ellipse:hover,
-.list .ellipse:focus {
-  background-color: $basic-blue-color;
-  fill: $text-white-color;
 }

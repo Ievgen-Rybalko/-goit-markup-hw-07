@@ -48,14 +48,14 @@
   display: flex;
 }
 
-.our-advantages.list .item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .our-advantages.list .item {
   width: 270px;
-}
 
-.our-advantages.list h3 {
-  margin-bottom: 10px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  & h3 {
+    margin-bottom: 10px;
+  }
 }

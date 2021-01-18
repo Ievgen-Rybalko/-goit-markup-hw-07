@@ -1,31 +1,28 @@
 @import './utils/variables';
 @import './basic/my-normalization';
-@import './components/body';
-@import './components/header';
+@import './basic/body';
+
 @import './components/logo';
 @import './components/nav';
 @import './components/header-contacts';
+
 @import './components/hero-section';
-@import './components/backdrop';
-@import './components/modal';
+
+@import './components/backdrop-modal';
 @import './components/modal-forms';
 @import './components/form-checkbox';
 @import './components/form-button';
+
 @import './components/our-advantage-section';
 @import './components/what-we-do-section';
-@import './components/h2-style';
+
 @import './components/our-team-section';
-@import './components/our-team-list';
 @import './components/sotials';
 @import './components/our-clients-section';
-@import './components/our-clients-cards';
-@import './components/footer';
-@import './components/footer-logo';
+
 @import './components/footer-contacts';
 @import './components/footer-hero';
-@import './components/footer-sotials';
-@import './components/footer-form-email';
-@import './components/footer-form-button';
-@import './components/portfolio-page';
-@import './components/portfolio-filters';
+@import './components/footer-email-form';
+
+@import './components/portfolio';
 @import './components/portfolio-cards';
